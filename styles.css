@@ -1,0 +1,110 @@
+body {
+  padding-top: 0px;
+}
+
+.nav-pills  li {
+  padding-left:-10px;
+  
+  
+}
+
+.container-fluid {
+ 
+    margin-top: 60px;
+  display:flex;
+  align-items:flex-end;
+  padding-right:50px;
+    
+     
+  }
+ .navbar-brand {
+      font-size: 30px;
+      display:flex;
+      
+      align-items:flex-end;
+      line-height:1em;
+      padding-left:15px;
+      padding-right:15px;
+        
+    }
+div > a >.navbar-brand:hover, navbar-brand:focus{
+   background-color:red;
+    }
+    
+.nav>li>a:focus, .nav>li>a:hover{
+  background-color:black !important;
+  color:white;
+      
+      
+}
+  
+.jumbotron {
+    width:80%;
+    white-space:wrap;
+    height:60%;
+    position:absolute;
+    top:15px;
+  	
+    
+    background-color:rgba(255,255,255,.5);
+   margin-left: auto;
+    margin-right: auto;
+   left: 0;
+   right: 0;
+  
+    /*top: 50%;   position the top  edge of the element at the middle of the parent 
+    *left: 50%;   position the left edge of the element at the middle of the parent
+
+    *transform: translate(-50%, -50%); Look at this option */  
+     }
+ 
+.main{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:;
+       
+  }
+
+.container {
+  background-image:url(images/MtHood.jpg);
+  width:100%;
+  height:500px;
+  position:relative;
+  margin-top:100px ;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position: 0px 110px;
+  
+}
+
+.intro {
+    
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: hidden;
+    
+  }
+
+.portfolio {
+    background-color:#e3eaf4;
+    height: 400px;
+  }
+
+.portrait img {
+    
+   min-width:100px;
+   width: 100%;
+    height:30%;
+    
+    
+  }
+
+.me p {
+    font-weight:400;
+    font-size:1 em;
+  }
+  
+ .me li {
+      font-size:1.5em;
+}
+
